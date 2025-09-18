@@ -1,6 +1,10 @@
 # CMPUT 301 : Lab 3 Participation Exercise
 
-## References and Resources
+Eric Kane
+
+ekane1
+
+## N/A
 
 List any resources used here, or simply put `N/A` if not applicable.
 
