@@ -2,7 +2,7 @@ package com.example.listycitylab3;
 
 import java.io.Serializable;
 
-public class City implements Serializable {
+public class City {
     private String name;
     private String province;
 
@@ -17,6 +17,14 @@ public class City implements Serializable {
 
     public String getProvince() {
         return province;
+    }
+
+    public void setCity(String name) {
+        this.name = name;
+    }
+
+    public void setProvince(String province) {
+        this.province = province;
     }
 
 

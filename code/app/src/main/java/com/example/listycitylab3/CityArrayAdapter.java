@@ -29,7 +29,7 @@ public class CityArrayAdapter extends ArrayAdapter<City> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         View view;
-        if (convertView == null) { // no reuasble view so inflate new one
+        if (convertView == null) { // no reusable view so inflate new one
             view = LayoutInflater.from(getContext()).inflate(R.layout.content, parent, false);
         } else {
             view = convertView; // otherwise reuse the old view
